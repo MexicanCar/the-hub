@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100%;
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-light{
+    background-color: #EEEEEE !important;
+}
+
+
+.content{
+    flex: 1 0 auto;
+}
+
+.footer{
+    background-color: #2C4961;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.welcome{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#welcome-header{
+    margin-left: 5px;
+    font-size: 35px;
+}
+#continue-header{
+    margin-left: 160px;
+}
+#the-hub{
+    margin-left: 160px;
+    font-size: 60px;
+}
+
+.partners{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.partners-container{
+    width: 100%;
+    border-top: 3px solid black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.partner{
+    height: 128px;
+    width: 128px;
+    margin-right: 25px;
+}
+#target{
+    margin-left: 35px;
+}
+#walmart{
+    width: 164px;
+}
+#costco{
+    height: 116px;
+    width: 212px
+}
+
+/**
+ROADS PAGE
+**/
+.links{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 65px;
+}
+
+
+
+.links-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.link{
+    border-radius: 15px;
+    background-color: lightcoral;
+    width: 98%;
+    margin: 5px;
+    display: flex;
+    height: 96px;
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.redirect{
+  text-decoration: none;
+  color: black;
+  width: 95%;
+}
+
+.top{
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.rating{
+    margin-left: 15px;
+    padding-top: 3px;
+}
+
+.link-logo{
+    margin-top: 15px;
+    margin-left: 3px;
+    height: 60px;
+    width: 60px;
+}
+
+.biography{
+    margin-left: 10px;
+    margin-top: -13px;
+    font-size: 14px;
+}
+
+.redirect:active {
+    text-decoration: none;
+}
+.redirect:hover {
+    text-decoration: none;
+}
+
+
+/**
+Sponsors Page
+**/
+
+.sponsors{
+    width: 100%;
+    display: flex;
+   
+}
+
+.sponsors-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sponsor{
+    background-color: lightskyblue;
+    border-radius: 15px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    width:50%;
+}
+
+/**
+Offers page
+**/
+
+.offers{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.offers-contain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.offer{
+    background-color: #ffd369;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    margin-bottom:10px;
+}
+
+.offer-one{
+    text-align: center;
+    width: 150px;
+}
+
+.versus{
+    text-align: center;
+    width: 80px;
+}
+
+.versus h4{
+    color: darkred;
+}
+
+.versus h6{
+    border-bottom: 2px solid black;
+}
+
+.offer-two{
+    text-align: center;
+    width: 150px;
+}
+
+@media only screen and (min-width: 961px){
+    .content{
+        width: 600px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .offers{
+        margin-top: 90px;
+    }
+
+    .links{
+        margin-top: 30%;
+    }
+
+    .sponsors{
+        margin-top: 20%;
+    }
+}
